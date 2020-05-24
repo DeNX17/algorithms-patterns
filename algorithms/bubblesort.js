@@ -1,5 +1,7 @@
 const array = [1, 5, 2, 3, 5, 87, 9, 0, 52, 34, 567, 6, 6, 6, 23]
 
+// Ο(n2)
+
 const bubbleSort = (array) => {
   for (let i = 0; i < array.length; i++) {
     for (let j = 0; j < array.length; j++) {
