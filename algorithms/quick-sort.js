@@ -1,6 +1,4 @@
-const arr = [4, 8, 3, 0, 1, 5, 9, 8, 8, 1, 8, 3, 4, 6]
-
-function quickSort(arr) {
+export function quickSort(arr) {
   if (arr.length <= 1) {
     return arr
   }
@@ -13,4 +11,3 @@ function quickSort(arr) {
   return [...quickSort(less), pivot, ...quickSort(greater)]
 }
 
-console.log(quickSort(arr))
